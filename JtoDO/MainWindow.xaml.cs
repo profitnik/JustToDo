@@ -37,7 +37,7 @@ namespace JtoDO
         private void dgToDoList_Loaded(object sender, RoutedEventArgs e)
         {
             _inOut = new InOut(path);
-
+            
             try
             {
                 todoData = _inOut.LoadData();
