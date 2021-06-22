@@ -39,7 +39,7 @@ namespace JtoDO
             _inOut = new InOut(path);
             
             try
-            {
+            { 
                 todoData = _inOut.LoadData();
             }
             catch (Exception ex)
