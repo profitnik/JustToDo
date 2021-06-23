@@ -33,7 +33,6 @@ namespace JtoDO
             InitializeComponent();
             
         }
-
         private void dgToDoList_Loaded(object sender, RoutedEventArgs e)
         {
             _inOut = new InOut(path);
